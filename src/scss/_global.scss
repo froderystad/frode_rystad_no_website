@@ -31,6 +31,7 @@ a {
 p {
     margin: 2rem 0;
     line-height: 1.4em;
+    text-align: center;
 
     &:last-of-type {
         margin-bottom: 0;
@@ -44,11 +45,18 @@ h2 {
     line-height: 1.1em;
 }
 
+ul {
+    padding-left: 25px;
+    display: inline-block;
+    text-align: center;
+}
+
 .center {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 100px;
 
     h1 {
         text-align: center;

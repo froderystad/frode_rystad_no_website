@@ -1,4 +1,3 @@
-// This will get imported in main.js
-export const logSomething = msg => {
+export const logMessage = msg => {
     console.log(msg);
 };

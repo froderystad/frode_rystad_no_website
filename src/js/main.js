@@ -1,3 +1,3 @@
-import { logSomething } from './module';
+import { logMessage } from './module';
 
-logSomething('Hello World');
+logMessage('Site loaded');

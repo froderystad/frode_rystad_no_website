@@ -1,12 +1,12 @@
 {
-  "name": "static-website-template",
-  "version": "1.0.2",
-  "description": "A template for building static website",
-  "author": "Vincent Will <vincent.will@vaitrade.de>",
+  "name": "website_rystad_no",
+  "version": "1.0.0",
+  "description": "Source for website rystad.no",
+  "author": "Frode Rystad <frode@rystad.no>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Vincenius/static-website-template"
+    "url": "https://github.com/froderystad/website_rystad_no"
   },
   "scripts": {
     "clean": "rimraf dist/*",

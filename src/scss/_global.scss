@@ -7,13 +7,14 @@
 }
 
 html {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'arial narrow', sans-serif;
     font-display: swap;
     box-sizing: border-box;
 }
 
 body {
-    font-size: 1.6rem;
+    margin: 50px;
+    font-size: medium;
     background-color: $subtleBg;
     color: $defaultFont;
     -webkit-font-smoothing: antialiased;
@@ -22,25 +23,29 @@ body {
 
 a {
     transition: 0.1s linear;
+    color: $not-visited;
+    text-decoration: none;
 
+    &:visited {
+        color: $visited;
+    }
     &:hover {
-        color: $primary;
+        color: $hover;
     }
 }
 
 p {
-    margin: 2rem 0;
+    margin: 1.0rem 0;
     line-height: 1.4em;
-    text-align: center;
 
     &:last-of-type {
         margin-bottom: 0;
     }
 }
 
-h1,
-h2 {
-    margin-bottom: 4rem;
+h1 {
+    font-family: 'verdana', 'sans-serif';
+    margin-bottom: 2rem;
     max-width: 100%;
     line-height: 1.1em;
 }
@@ -48,26 +53,22 @@ h2 {
 ul {
     padding-left: 25px;
     display: inline-block;
-    text-align: center;
 }
 
-.center {
+nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin: 100px;
-
-    h1 {
-        text-align: center;
-    }
+    justify-content: right;
+    margin-top: 0.5rem;
 }
 
-.full-sized {
-    height: 100vh;
-    width: 100%;
-
-    img {
-        max-width: 200px;
+footer {
+    margin-top: 0.75rem;
+    border-top: thin solid $defaultFont;
+    text-align: center;
+    font-size: smaller;
+    div {
+        margin-top: 0.5rem;
     }
 }

@@ -72,3 +72,16 @@ footer {
         margin: 0.5rem;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: $dark-subtleBg;
+        color: $dark-defaultFont;
+    }
+    a {
+        color: $dark-not-visited;
+        &:visited {
+            color: $dark-visited;
+        }
+    }
+}
